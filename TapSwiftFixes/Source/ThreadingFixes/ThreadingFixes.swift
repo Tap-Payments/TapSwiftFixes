@@ -17,7 +17,7 @@
     return try body()
 }
 
-public func performOnMainThread(_ work: @escaping @convention(block) () -> Swift.Void) {
+public func performOnMainThread(_ work: @escaping @convention(block) () -> Void) {
 
     if Thread.isMainThread {
 
@@ -26,4 +26,15 @@ public func performOnMainThread(_ work: @escaping @convention(block) () -> Swift
     }
 
     DispatchQueue.main.async(execute: work)
+}
+
+public func performOnBackgroundThread(_ work: @escaping @convention(block) () -> Void) {
+
+    if !Thread.isMainThread {
+
+        work()
+        return
+    }
+
+    DispatchQueue.global(qos: .background).async(execute: work)
 }

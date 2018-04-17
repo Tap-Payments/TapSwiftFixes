@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.name = 'TapSwiftFixes'
     s.summary = 'Useful additions that are missing in Swift.'
     s.requires_arc = true
-    s.version = '1.0'
+    s.version = '1.0.1'
     s.license = { :type => 'MIT', :file => 'LICENSE' }
     s.author = { 'Tap Payments' => 'hello@tap.company' }
     s.homepage = 'https://github.com/Tap-Payments/TapSwiftFixes'
