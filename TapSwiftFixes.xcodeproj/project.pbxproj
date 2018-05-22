@@ -21,12 +21,10 @@
 		A4F77E6B20B43B1E00C11626 /* ExceptionCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A461157C2080DF4800217063 /* ExceptionCatcher.m */; };
 		A4F77E6C20B43B1E00C11626 /* ThreadingFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46115792080DF4000217063 /* ThreadingFixes.swift */; };
 		A4F77E6D20B43B1E00C11626 /* AppearanceFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = A46115842080DF5600217063 /* AppearanceFixes.m */; };
-		A4F77E6F20B43B1E00C11626 /* Pods_TapSwiftFixes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31AD8DF3892C97FFE41DD7 /* Pods_TapSwiftFixes.framework */; };
 		A4F77E7120B43B1E00C11626 /* CoreGraphicsFixes.h in Headers */ = {isa = PBXBuildFile; fileRef = A461157F2080DF4F00217063 /* CoreGraphicsFixes.h */; };
 		A4F77E7220B43B1E00C11626 /* TapSwiftFixes.h in Headers */ = {isa = PBXBuildFile; fileRef = A43ED50A1E2F9BAD00CD1547 /* TapSwiftFixes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F77E7320B43B1E00C11626 /* AppearanceFixes.h in Headers */ = {isa = PBXBuildFile; fileRef = A46115832080DF5600217063 /* AppearanceFixes.h */; };
 		A4F77E7420B43B1E00C11626 /* ExceptionCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A461157B2080DF4800217063 /* ExceptionCatcher.h */; };
-		A4F77E7620B43B1E00C11626 /* TapSwiftFixes.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A442468F1F1F52DF00179F80 /* TapSwiftFixes.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F77E6F20B43B1E00C11626 /* Pods_TapSwiftFixes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +215,6 @@
 				A4F77E6E20B43B1E00C11626 /* Frameworks */,
 				A4F77E7020B43B1E00C11626 /* Headers */,
 				A4F77E7520B43B1E00C11626 /* Resources */,
-				A4F77E7720B43B1E00C11626 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -280,7 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F77E7620B43B1E00C11626 /* TapSwiftFixes.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,19 +283,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		A44B803C1F74159C003241B6 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
-		};
-		A4F77E7720B43B1E00C11626 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
