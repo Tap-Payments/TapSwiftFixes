@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A43ED5061E2F9BAD00CD1547"
-               BuildableName = "TapSwiftFixes.framework"
-               BlueprintName = "TapSwiftFixes"
+               BlueprintIdentifier = "A4F77E6720B43B1E00C11626"
+               BuildableName = "TapSwiftFixes_Carthage.framework"
+               BlueprintName = "TapSwiftFixes_Carthage"
                ReferencedContainer = "container:TapSwiftFixes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A43ED5061E2F9BAD00CD1547"
-            BuildableName = "TapSwiftFixes.framework"
-            BlueprintName = "TapSwiftFixes"
+            BlueprintIdentifier = "A4F77E6720B43B1E00C11626"
+            BuildableName = "TapSwiftFixes_Carthage.framework"
+            BlueprintName = "TapSwiftFixes_Carthage"
             ReferencedContainer = "container:TapSwiftFixes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A43ED5061E2F9BAD00CD1547"
-            BuildableName = "TapSwiftFixes.framework"
-            BlueprintName = "TapSwiftFixes"
+            BlueprintIdentifier = "A4F77E6720B43B1E00C11626"
+            BuildableName = "TapSwiftFixes_Carthage.framework"
+            BlueprintName = "TapSwiftFixes_Carthage"
             ReferencedContainer = "container:TapSwiftFixes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

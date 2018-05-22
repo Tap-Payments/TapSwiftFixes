@@ -2,6 +2,7 @@ Pod::Spec.new do |s|
 
     s.platform = :ios
     s.ios.deployment_target = '8.0'
+    s.swift_version = '4.1'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
     s.name = 'TapSwiftFixes'
     s.summary = 'Useful additions that are missing in Swift.'
