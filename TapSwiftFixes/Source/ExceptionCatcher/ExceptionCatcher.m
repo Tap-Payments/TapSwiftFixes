@@ -9,20 +9,21 @@
 
 #import "ExceptionCatcher.h"
 
-BOOL catchException(ArgumentlessBlock _Nonnull tryBlock, NSError * _Nullable  __autoreleasing * _Nullable error)
+BOOL catchException(ArgumentlessBlock _Nonnull tryBlock, NSException * _Nullable  __autoreleasing * _Nullable exception)
 {
-    @try
+    NS_DURING
+    
+    tryBlock();
+    return YES;
+    
+    NS_HANDLER
+    
+    if ( exception != nil )
     {
-        tryBlock();
-        return YES;
+        *exception = localException;
     }
-    @catch (NSException *exception)
-    {
-        if ( error != nil )
-        {
-            *error = [[NSError alloc] initWithDomain:exception.name code:0 userInfo:exception.userInfo];
-        }
-        
-        return NO;
-    }
+    
+    return NO;
+    
+    NS_ENDHANDLER
 }

@@ -2,12 +2,11 @@ Pod::Spec.new do |s|
 
     s.platform = :ios
     s.ios.deployment_target = '8.0'
-    s.swift_version = '4.1'
-    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
+    s.swift_version = '4.2'
     s.name = 'TapSwiftFixes'
     s.summary = 'Useful additions that are missing in Swift.'
     s.requires_arc = true
-    s.version = '1.0.4'
+    s.version = '1.0.5'
     s.license = { :type => 'MIT', :file => 'LICENSE' }
     s.author = { 'Tap Payments' => 'hello@tap.company' }
     s.homepage = 'https://github.com/Tap-Payments/TapSwiftFixes'

@@ -5,10 +5,10 @@
 //  Copyright © 2018 Tap Payments. All rights reserved.
 //
 
-import class Dispatch.DispatchQueue
-import class Foundation.NSThread.Thread
-import func ObjectiveC.objc_sync.objc_sync_enter
-import func ObjectiveC.objc_sync.objc_sync_exit
+import class    Dispatch.DispatchQueue
+import class    Foundation.NSThread.Thread
+import func     ObjectiveC.objc_sync.objc_sync_enter
+import func     ObjectiveC.objc_sync.objc_sync_exit
 
 @discardableResult public func synchronized<T>(_ lock: Any, _ body: () throws -> T) rethrows -> T {
 
