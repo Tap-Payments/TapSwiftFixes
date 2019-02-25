@@ -41,5 +41,9 @@ public func performOnBackgroundThread(_ work: @escaping @convention(block) () ->
         return
     }
 
-    DispatchQueue.global(qos: .background).async(execute: work)
+	#if os(iOS)
+	DispatchQueue.global(qos: .background).async(execute: work)
+	#else
+	DispatchQueue.global(priority: .background).async(execute: work)
+	#endif
 }

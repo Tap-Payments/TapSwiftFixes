@@ -1,5 +1,5 @@
 //
-//  TapSwiftFixes.h
+//  TapSwiftFixesiOS.h
 //  TapSwiftFixes
 //
 //  Copyright © 2018 Tap Payments. All rights reserved.

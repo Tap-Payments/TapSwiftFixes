@@ -5,6 +5,8 @@
 //  Copyright © 2018 Tap Payments. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+
 @import Foundation.NSArray;
 @import ObjectiveC.NSObject;
 
@@ -20,3 +22,5 @@
 @end
 
 @interface NSObject (Appearance) <Appearance> @end
+
+#endif

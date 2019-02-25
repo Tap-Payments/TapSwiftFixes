@@ -5,6 +5,8 @@
 //  Copyright © 2018 Tap Payments. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
+
 @import UIKit.UIAppearance;
 
 #import "AppearanceFixes.h"
@@ -34,3 +36,5 @@
 }
 
 @end
+
+#endif
