@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B75BB1972F094C4711C246A /* Pods_TapSwiftFixesMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52C07CD7D2F88720009C5A3 /* Pods_TapSwiftFixesMac.framework */; };
 		148C98EA2224376200BF0D45 /* TapSwiftFixesMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 148C98E82224376200BF0D45 /* TapSwiftFixesMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		148C98F1222443E800BF0D45 /* CoreGraphicsFixes.h in Headers */ = {isa = PBXBuildFile; fileRef = A461157F2080DF4F00217063 /* CoreGraphicsFixes.h */; };
 		148C98F2222443E800BF0D45 /* CoreGraphicsFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = A46115802080DF4F00217063 /* CoreGraphicsFixes.m */; };
@@ -15,7 +16,7 @@
 		148C98F5222443F200BF0D45 /* ThreadingFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46115792080DF4000217063 /* ThreadingFixes.swift */; };
 		148C98F72224482900BF0D45 /* AppearanceFixes.h in Headers */ = {isa = PBXBuildFile; fileRef = A46115832080DF5600217063 /* AppearanceFixes.h */; };
 		148C98F82224482900BF0D45 /* AppearanceFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = A46115842080DF5600217063 /* AppearanceFixes.m */; };
-		7A4079A4FAD56F7830CB6758 /* Pods_TapSwiftFixes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF31AD8DF3892C97FFE41DD7 /* Pods_TapSwiftFixes.framework */; };
+		9E1A2AA080E6EB2E24A45D6B /* Pods_TapSwiftFixesiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493344978E7BE8BC5BDC5BD9 /* Pods_TapSwiftFixesiOS.framework */; };
 		A43ED50C1E2F9BAD00CD1547 /* TapSwiftFixesiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A43ED50A1E2F9BAD00CD1547 /* TapSwiftFixesiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A461157A2080DF4000217063 /* ThreadingFixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46115792080DF4000217063 /* ThreadingFixes.swift */; };
 		A461157D2080DF4800217063 /* ExceptionCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = A461157B2080DF4800217063 /* ExceptionCatcher.h */; };
@@ -30,7 +31,10 @@
 		148C98E62224376200BF0D45 /* TapSwiftFixesMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapSwiftFixesMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		148C98E82224376200BF0D45 /* TapSwiftFixesMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapSwiftFixesMac.h; sourceTree = "<group>"; };
 		148C98E92224376200BF0D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CF79B9AE9A4AB4358C84F8D /* Pods-TapSwiftFixes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSwiftFixes.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapSwiftFixes/Pods-TapSwiftFixes.release.xcconfig"; sourceTree = "<group>"; };
+		493344978E7BE8BC5BDC5BD9 /* Pods_TapSwiftFixesiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapSwiftFixesiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		865DC753FEB9D1C4E2BD8094 /* Pods-TapSwiftFixesiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSwiftFixesiOS.debug.xcconfig"; path = "Target Support Files/Pods-TapSwiftFixesiOS/Pods-TapSwiftFixesiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		979588E43F20AFA872194F38 /* Pods-TapSwiftFixesiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSwiftFixesiOS.release.xcconfig"; path = "Target Support Files/Pods-TapSwiftFixesiOS/Pods-TapSwiftFixesiOS.release.xcconfig"; sourceTree = "<group>"; };
+		9E49B14EAE48136EE3A47430 /* Pods-TapSwiftFixesMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSwiftFixesMac.release.xcconfig"; path = "Target Support Files/Pods-TapSwiftFixesMac/Pods-TapSwiftFixesMac.release.xcconfig"; sourceTree = "<group>"; };
 		A43ED5071E2F9BAD00CD1547 /* TapSwiftFixesiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapSwiftFixesiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43ED50A1E2F9BAD00CD1547 /* TapSwiftFixesiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapSwiftFixesiOS.h; sourceTree = "<group>"; };
 		A43ED50B1E2F9BAD00CD1547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +46,8 @@
 		A46115802080DF4F00217063 /* CoreGraphicsFixes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsFixes.m; sourceTree = "<group>"; };
 		A46115832080DF5600217063 /* AppearanceFixes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceFixes.h; sourceTree = "<group>"; };
 		A46115842080DF5600217063 /* AppearanceFixes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceFixes.m; sourceTree = "<group>"; };
-		CB76F3E49357833AB302B88A /* Pods-TapSwiftFixes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSwiftFixes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapSwiftFixes/Pods-TapSwiftFixes.debug.xcconfig"; sourceTree = "<group>"; };
-		CF31AD8DF3892C97FFE41DD7 /* Pods_TapSwiftFixes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapSwiftFixes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E75DFEE017C79E1E9D37A84B /* Pods_SwiftFixes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFixes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52C07CD7D2F88720009C5A3 /* Pods_TapSwiftFixesMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapSwiftFixesMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FC5C1B1BC2CE167FCCFB51 /* Pods-TapSwiftFixesMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSwiftFixesMac.debug.xcconfig"; path = "Target Support Files/Pods-TapSwiftFixesMac/Pods-TapSwiftFixesMac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B75BB1972F094C4711C246A /* Pods_TapSwiftFixesMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,13 +63,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A4079A4FAD56F7830CB6758 /* Pods_TapSwiftFixes.framework in Frameworks */,
+				9E1A2AA080E6EB2E24A45D6B /* Pods_TapSwiftFixesiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09359955AC97D3F19F91C439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC5C1B1BC2CE167FCCFB51 /* Pods-TapSwiftFixesMac.debug.xcconfig */,
+				9E49B14EAE48136EE3A47430 /* Pods-TapSwiftFixesMac.release.xcconfig */,
+				865DC753FEB9D1C4E2BD8094 /* Pods-TapSwiftFixesiOS.debug.xcconfig */,
+				979588E43F20AFA872194F38 /* Pods-TapSwiftFixesiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		148C98E72224376200BF0D45 /* TapSwiftFixesMac */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,13 +106,13 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		8396E147AAB192BEAED8B970 /* Pods */ = {
+		7B8A3CC1AECCD89D9F44CC27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB76F3E49357833AB302B88A /* Pods-TapSwiftFixes.debug.xcconfig */,
-				2CF79B9AE9A4AB4358C84F8D /* Pods-TapSwiftFixes.release.xcconfig */,
+				E52C07CD7D2F88720009C5A3 /* Pods_TapSwiftFixesMac.framework */,
+				493344978E7BE8BC5BDC5BD9 /* Pods_TapSwiftFixesiOS.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A4014A6F1FC5EB7E00F26E4E /* Source */ = {
@@ -118,8 +133,8 @@
 				A43ED5091E2F9BAD00CD1547 /* TapSwiftFixesiOS */,
 				148C98E72224376200BF0D45 /* TapSwiftFixesMac */,
 				A43ED5081E2F9BAD00CD1547 /* Products */,
-				8396E147AAB192BEAED8B970 /* Pods */,
-				BF014768B8968A4B7E17CF73 /* Frameworks */,
+				09359955AC97D3F19F91C439 /* Pods */,
+				7B8A3CC1AECCD89D9F44CC27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,15 +192,6 @@
 			path = ThreadingFixes;
 			sourceTree = "<group>";
 		};
-		BF014768B8968A4B7E17CF73 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E75DFEE017C79E1E9D37A84B /* Pods_SwiftFixes.framework */,
-				CF31AD8DF3892C97FFE41DD7 /* Pods_TapSwiftFixes.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -218,8 +224,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 148C98EB2224376200BF0D45 /* Build configuration list for PBXNativeTarget "TapSwiftFixesMac" */;
 			buildPhases = (
-				148C98E12224376200BF0D45 /* Headers */,
+				585F114A9B63430A163CF535 /* [CP] Check Pods Manifest.lock */,
 				148C98E22224376200BF0D45 /* Sources */,
+				148C98E12224376200BF0D45 /* Headers */,
 				148C98E32224376200BF0D45 /* Frameworks */,
 				148C98E42224376200BF0D45 /* Resources */,
 			);
@@ -236,10 +243,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43ED50F1E2F9BAD00CD1547 /* Build configuration list for PBXNativeTarget "TapSwiftFixesiOS" */;
 			buildPhases = (
-				BAFCF440E212A8AA537E2DFB /* [CP] Check Pods Manifest.lock */,
+				9AB3C1C704E788AA60463863 /* [CP] Check Pods Manifest.lock */,
 				A43ED5021E2F9BAD00CD1547 /* Sources */,
-				A43ED5031E2F9BAD00CD1547 /* Frameworks */,
 				A43ED5041E2F9BAD00CD1547 /* Headers */,
+				A43ED5031E2F9BAD00CD1547 /* Frameworks */,
 				A43ED5051E2F9BAD00CD1547 /* Resources */,
 				A44B803C1F74159C003241B6 /* ShellScript */,
 			);
@@ -258,7 +265,7 @@
 		A43ED4FE1E2F9BAD00CD1547 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Tap Payments";
 				TargetAttributes = {
 					148C98E52224376200BF0D45 = {
@@ -269,17 +276,18 @@
 					A43ED5061E2F9BAD00CD1547 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = G46S76PUH4;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = A43ED5011E2F9BAD00CD1547 /* Build configuration list for PBXProject "TapSwiftFixes" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A43ED4FD1E2F9BAD00CD1547;
 			productRefGroup = A43ED5081E2F9BAD00CD1547 /* Products */;
@@ -310,6 +318,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		585F114A9B63430A163CF535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapSwiftFixesMac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB3C1C704E788AA60463863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapSwiftFixesiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A44B803C1F74159C003241B6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,24 +374,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
-		};
-		BAFCF440E212A8AA537E2DFB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TapSwiftFixes-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -371,12 +405,13 @@
 /* Begin XCBuildConfiguration section */
 		148C98EC2224376200BF0D45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FC5C1B1BC2CE167FCCFB51 /* Pods-TapSwiftFixesMac.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -402,12 +437,13 @@
 		};
 		148C98ED2224376200BF0D45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E49B14EAE48136EE3A47430 /* Pods-TapSwiftFixesMac.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -434,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -495,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -547,7 +585,7 @@
 		};
 		A43ED5101E2F9BAD00CD1547 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB76F3E49357833AB302B88A /* Pods-TapSwiftFixes.debug.xcconfig */;
+			baseConfigurationReference = 865DC753FEB9D1C4E2BD8094 /* Pods-TapSwiftFixesiOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -564,13 +602,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		A43ED5111E2F9BAD00CD1547 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CF79B9AE9A4AB4358C84F8D /* Pods-TapSwiftFixes.release.xcconfig */;
+			baseConfigurationReference = 979588E43F20AFA872194F38 /* Pods-TapSwiftFixesiOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -586,7 +624,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tappayments.TapSwiftFixes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
