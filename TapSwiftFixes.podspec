@@ -3,11 +3,11 @@ Pod::Spec.new do |s|
     s.platform				= :ios
     s.ios.deployment_target	= '8.0'
 	s.osx.deployment_target = '10.9'
-    s.swift_versions		= ['4.2', '5.0']
+    s.swift_versions		= ['4.0', '4.2', '5.0']
     s.name					= 'TapSwiftFixes'
     s.summary				= 'Useful additions that are missing in Swift.'
     s.requires_arc			= true
-    s.version				= '1.0.8'
+    s.version				= '1.0.9'
     s.license				= { :type => 'MIT', :file => 'LICENSE' }
     s.author				= { 'Tap Payments' => 'hello@tap.company' }
     s.homepage				= 'https://github.com/Tap-Payments/TapSwiftFixes'
